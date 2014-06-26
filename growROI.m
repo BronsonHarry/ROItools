@@ -104,11 +104,12 @@ for curVox = 2:ROIsize
     ROImask(i,j,k) = 1;
     indMask(i,j,k) = curVox;
     adjacent(i,j,k) = 1;
+    Tvalue = value;
     
     
 end
 
-fprintf('Done \n created ROI with %d voxels, lowest T-value = %d\n',curVox,value)
+fprintf('Done \n created ROI with %d voxels, lowest T-value = %0.2f\n',curVox,Tvalue)
 
 
 
