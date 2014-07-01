@@ -116,6 +116,6 @@ Tmin = min(Tval);
 
 fprintf('Done \n created ROI with %d voxels, T-values %0.2f - %0.2f\n',curVox,Tmax,Tmin)
 
-%% Does the peak T have the highest T value in the ROI?
+
 
 %%ADD code that provides ROI stats, histogram of voxel Tvalues
